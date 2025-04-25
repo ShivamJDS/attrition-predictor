@@ -4,14 +4,16 @@
 * A complete end-to-end implementation of a Classical Machine Learning pipeline for HR dataset.
 
 
-## 📁 Files in this Repository
+## 📁 Files and Folders in this Repository
 
 - `taoiq.ipynb` - Main Jupyter Notebook (runs end-to-end on Google Colab).
 - `requirements.txt` - List of required Python packages.
-- `model.pkl` - Pickled Voting Classifier model.
-- `scaler.pkl` - StandardScaler object used for feature scaling.
-- `model_columns.pkl` - List of columns/features used for training the model.
+- `models` - Folder containing model files
+    - `model.pkl` - Pickled Voting Classifier model.
+    - `scaler.pkl` - StandardScaler object used for feature scaling.
+    - `model_columns.pkl` - List of columns/features used for training the model.
 - `model_testing.png` - Screenshot of the model testing output.
+- `model_testing.png` - Screenshot of the streamlit deployment.
 
 ## 📌 Features
 
@@ -30,14 +32,15 @@
 * copy all the files to colab and start running from (Save model and test it) cell in the notebook
 
 --------------------------------------
-
+* If you want to run in local follow below steps
 
 ```
 # Clone the repository
-git clone https://github.com/your-username/streamlit-app.git
-cd streamlit-app
+git clone https://github.com/ShivamJDS/attrition-predictor.git
+cd attrition-predictor
 
-!pip install -r requirements.txt
+# Install requirements
+pip install -r requirements.txt
 
 # Run the Streamlit app
 streamlit run app.py
@@ -45,20 +48,16 @@ streamlit run app.py
 ```
 
 
-
-
-
 ## 
 
-# Notebook link
+# Links
 
-[notebook](https://colab.research.google.com/drive/1vxiK81hY08maCDnCj5o85n9aVIf6V0GL?usp=sharing)
-
+1. [Colab Notebook](https://colab.research.google.com/drive/1vxiK81hY08maCDnCj5o85n9aVIf6V0GL?usp=sharing)
+2. [Git repo](https://github.com/ShivamJDS/attrition-predictor)
 
 ## 🖥️ Live Demo
 
-You can try the app here: [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/your-username/your-repo/main/app.py)
+You can try the app here: [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://predictor-attrition.streamlit.app/)
 
-> _(Update the link once you deploy it on [Streamlit Cloud](https://streamlit.io/cloud))_
 
 ---
